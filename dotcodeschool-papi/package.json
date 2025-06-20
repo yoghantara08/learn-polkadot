@@ -1,0 +1,19 @@
+{
+  "name": "papi-learn",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "postinstall": "papi"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi\\descriptors",
+    "polkadot-api": "^1.14.0"
+  }
+}
