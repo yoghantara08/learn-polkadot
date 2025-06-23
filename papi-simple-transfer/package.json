@@ -1,0 +1,18 @@
+{
+  "name": "papi-simple-transfer",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi\\descriptors",
+    "@polkadot-labs/hdkd": "^0.0.19",
+    "@polkadot-labs/hdkd-helpers": "^0.0.19",
+    "polkadot-api": "^1.14.1"
+  }
+}
